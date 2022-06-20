@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/style.scss';
+import DiscvoverBar from './DiscoverBar';
 
 export default function Navbar() {
     return (
+        <>
       <nav className='navigation'>
         <a href='/'>ETKİNLİK BUL</a>
         <div className='nav-menu'>
@@ -22,7 +24,8 @@ export default function Navbar() {
             </ul>
         </div>
         <input type="text" placeholder="Search.." />
-
       </nav>
+      <DiscvoverBar />
+      </>
       )
   }
