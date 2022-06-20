@@ -20,8 +20,9 @@ export default function Navbar() {
                     <a href='/education'>Eğitim ve Daha Fazlası</a>
                 </li>
             </ul>
-
         </div>
+        <input type="text" placeholder="Search.." />
+
       </nav>
       )
   }
