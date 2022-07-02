@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
+import MyCalendar from "../Calendar/MyCalendar";
 import Item from "./Item";
 
 function DiscvoverBar() {
@@ -43,7 +44,7 @@ function getFilteredList(){
                 <option value="Müzik">Müzik</option>
                 <option value="Sahne">Sahne</option>
                 <option value="Spor">Spor</option>
-                <option value="Eğlence ve Daha Fazlası">Eğitim ve Daha Fazlası</option>
+                <option value="Eğitim ve Daha Fazlası">Eğitim ve Daha Fazlası</option>
             </select>
           </div>
         </div>
@@ -54,8 +55,8 @@ function getFilteredList(){
 
         </div>
         <div>
-          <span>Tarih</span>
-          <input type="text" placeholder="Search.." />
+          <span>Tarih </span>
+          <MyCalendar />
         </div>
         <div>
           <span>Lokasyon</span>
